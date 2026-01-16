@@ -6,31 +6,31 @@ const assets: Asset[] = [
   {
     id: 'GTM-01',
     name: 'Gladstone Toll Mill',
-    type: 'The Precedent',
+    type: 'Operational Proof',
     status: 'OPERATIONAL',
     location: 'Colorado, USA',
-    description: 'FROM LIABILITY TO REVENUE-READY INFRASTRUCTURE. Gladstone demonstrates that when liability is eliminated, permits are granted. It is the first permit of its kind on this waterway since 2002.',
+    description: 'OPERATIONAL INFRASTRUCTURE, NOT A PILOT. First toll mill permitted in Colorado in 20+ years. Only one on a major waterway. Proves the architecture works at commercial scale and generates revenue without long-term liability.',
     imageUrl: 'https://picsum.photos/800/600?random=1',
     specs: [
-      { label: 'Status', value: 'Operational', unit: '' },
-      { label: 'Capacity', value: 'Commercial', unit: 'Scale' },
+      { label: 'Status', value: 'Operational', unit: 'Commercial' },
+      { label: 'Regulatory', value: 'Permitted', unit: 'Full' },
       { label: 'Throughput', value: '500', unit: 'TPD' },
-      { label: 'Outcome', value: 'Permitted', unit: 'Fully' },
+      { label: 'Thesis', value: 'Proven', unit: 'Scale' },
     ]
   },
   {
     id: 'MRU-04',
     name: 'Mobile Research Unit (MRU)',
-    type: 'The Validator',
+    type: 'Validation Platform',
     status: 'COMMISSIONING',
     location: 'Nevada, USA',
-    description: 'VALIDATE BEFORE YOU BUILD. The MRU is a decision engine. It answers three questions: Is it recoverable? Is it non-toxic? Will it permit? This prevents CapEx risk.',
+    description: 'PRE-INVESTMENT VALIDATION PLATFORM. A decision engine that eliminates speculative CapEx. Turns assumptions into bankable candidates. Answers: Is it recoverable? Is it non-toxic? Will it permit?',
     imageUrl: 'https://picsum.photos/800/600?random=2',
     specs: [
-      { label: 'Function', value: 'Validation', unit: '' },
-      { label: 'Target', value: 'CapEx', unit: 'Risk' },
+      { label: 'Function', value: 'Validation', unit: 'Risk' },
+      { label: 'CapEx', value: 'Optimized', unit: 'Low' },
       { label: 'Setup Time', value: '14', unit: 'Days' },
-      { label: 'Discharge', value: '0', unit: '%' },
+      { label: 'Outcome', value: 'Bankable', unit: 'Data' },
     ]
   }
 ];
@@ -41,7 +41,7 @@ export const Infrastructure: React.FC = () => {
       <div className="container mx-auto px-4 md:px-8">
         <div className="border-l-4 border-brand-gold pl-6 mb-12">
            <h1 className="font-serif font-bold text-4xl text-white mb-2">OPERATING ASSETS</h1>
-           <p className="font-sans text-slate-400">Deployed infrastructure and active processing nodes.</p>
+           <p className="font-sans text-slate-400">The mechanism for scale and validation.</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
